@@ -1,4 +1,6 @@
-﻿namespace Calculadora.ConsoleApp
+﻿using System;
+
+namespace Calculadora.ConsoleApp
 {
     internal class Program
     {
@@ -48,13 +50,11 @@
                     continue;
                 }   
 
-                Console.Write("Digite o primeiro número: ");
-                string strPrimeiroNumero = Console.ReadLine();
-                decimal primeiroNumero = Convert.ToDecimal(strPrimeiroNumero);
+                Console.Write("Digite agora o primeiro número: ");
+                decimal primeiroNumero = Convert.ToDecimal(Console.ReadLine());
 
-                Console.Write("Digite o segundo número: ");
-                string strSegundoNumero = Console.ReadLine();
-                decimal segundoNumero = Convert.ToDecimal(strSegundoNumero);
+                Console.Write("Digite agora o segundo número: ");
+                decimal segundoNumero = Convert.ToDecimal(Console.ReadLine());
 
                 decimal resultado = 0.0m;
 
