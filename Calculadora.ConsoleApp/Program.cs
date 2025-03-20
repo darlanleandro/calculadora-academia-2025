@@ -58,7 +58,7 @@ namespace Calculadora.ConsoleApp
                 else if (opcao == "6")
                 {
                     Console.WriteLine(":::::::::::::::::::::::");
-                    Console.WriteLine("HISTÓRICO DAS OPERAÇÕES");
+                    Console.WriteLine("HISTÓRICO DAS OPERAÇÕES!");
                     Console.WriteLine(":::::::::::::::::::::::");
 
                     for (int contador = 0; contador < contadorHistorico; contador++)
